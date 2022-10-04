@@ -1,2 +1,3 @@
 # neogcamp-pirate-speak
- A JS app to convert to pirate language.
+ An app to convert to pirate language using HTML, CSS and Javascript.
+ 
