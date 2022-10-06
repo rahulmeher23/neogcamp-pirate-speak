@@ -3,9 +3,10 @@ var txtInput = document.querySelector(`#input-text`);
 var txtOutput = document.querySelector(`#output-text`);
 
 var serverURL = `https://api.funtranslations.com/translate/pirate.json`;
+var currentURL;
 
 function translationURL(text) {
-    return serverURL = serverURL + `?` + `text=` + text; 
+    return currentURL = serverURL + `?` + `text=` + text; 
 }
 
 function errorHandler(error) {
@@ -14,7 +15,7 @@ function errorHandler(error) {
 }
 
 function clickHandler() {
-    txtOutput.innerText = "";
+    // txtOutput.innerText = "";
     var inputText = txtInput.value;
 
     fetch(translationURL(inputText)) 

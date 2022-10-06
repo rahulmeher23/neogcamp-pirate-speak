@@ -41,6 +41,7 @@ body {
     max-height: 25vh;
     font-family: var(--font);
     font-size: large;
+    padding: 1rem;
 }
 
 button {
@@ -67,6 +68,7 @@ button:hover {
     min-width: 100%;
     border: 1px solid black;
     height: 10.6vh;
+    padding: 1rem;
 }
 
 footer {
